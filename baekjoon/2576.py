@@ -3,6 +3,7 @@ number_list = []
 # 홀수 합
 odd_sum = 0
 
+# 0 ~ 6 : 총 7번
 for i in range(N):
     num = int(input())
     if num % 2 == 1:
