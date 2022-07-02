@@ -24,31 +24,30 @@ for _ in range(N):
   if command.find("push") == 0 :
     n = int(command.split(' ')[1])
     stack.append(n)
-    continue    
+     
 
-  if command.find("pop") == 0:
+  elif command.find("pop") == 0:
     if(len(stack)==0):
       print(-1)
     else:
       print(stack[-1])
       stack.pop()
-    continue
   
-  if command.find("top") == 0 :
+  elif command.find("top") == 0 :
     if(len(stack) ==0):
       print(-1)
     else:
       print(stack[-1])
-    continue
-  if command.find("size") ==0 : 
+   
+  elif command.find("size") ==0 : 
     print(len(stack))
-    continue
-  if command.find("empty") == 0:
+    
+  elif command.find("empty") == 0:
     if(len(stack) ==0):
       print(1)
     else:
       print(0)
-    continue
+    
   
 
 #print(stack)
