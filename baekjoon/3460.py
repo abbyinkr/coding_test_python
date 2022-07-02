@@ -12,10 +12,9 @@ n을 이진수로 변경하여 저장한다.
 1의 위치를 모두 찾는 string 함수를 사용하여 위치가 낮은것부터 출력한다.
 '''
 
-
 # 테스트케이스 수
 T = int(input())
-
+1101
 for _ in range(T):
   bin = str(format(int(input()), 'b'))
 
