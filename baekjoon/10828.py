@@ -14,12 +14,12 @@ import sys
 
 N = int(sys.stdin.readline())
 
-
 stack = []
 for _ in range(N):
 
   command = sys.stdin.readline()
 
+  push 2 => ['push', '2']
   # command 가 push 로 시작하는 string이라면
   if command.find("push") == 0 :
     n = int(command.split(' ')[1])
